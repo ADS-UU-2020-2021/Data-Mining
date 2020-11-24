@@ -22,6 +22,6 @@ git clone https://github.com/mimno/Mallet.git
 cd Mallet
 
 # This process will create a file "mallet.jar" in the "dist" directory within Mallet.
-ant jar
+./bin/mallet # your command
 
 ```
