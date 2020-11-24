@@ -10,18 +10,17 @@ Make sure you don't include `#`, `$` , `v` when copying the following commands
 
 ```bash
 # Installing brew 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # Installing ant
-brew install ant
+$ brew install ant
 
 # Cloning repo
-git clone https://github.com/mimno/Mallet.git
+$ git clone https://github.com/mimno/Mallet.git
 
 # move into repo
-cd Mallet
+$ cd Mallet
 
-# This process will create a file "mallet.jar" in the "dist" directory within Mallet.
-./bin/mallet # your command
+$ ./bin/mallet # your command
 
 ```
