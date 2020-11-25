@@ -21,6 +21,7 @@ $ git clone https://github.com/mimno/Mallet.git
 # move into repo
 $ cd Mallet
 
-$ ./bin/mallet # your command
+# build the app! no more exit N warnings.
+$ ant jar
 
 ```
